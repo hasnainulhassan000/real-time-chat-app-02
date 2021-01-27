@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIGN UP</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="./socket.io.js"></script>
+</head>
+<body>
+	<center><div class="main">
+		<h1>SIGN UP</h1>
+		<div>
+			<div>
+				<form onsubmit="return signup()" action="#">
+					<input id="signup-name" class="text" type="text" placeholder="User Name" required=""><br/><br/>
+					<input id="signup-email" class="text" type="email" placeholder="Email Address" required=""><br/><br/>
+					<input id="signup-password" class="text" type="password" placeholder="Password" required=""><br/><br/>
+					<input id="signup-number" class="text" type="text" placeholder="Phone Number" required=""><br/><br/>
+					<select class="gender" id="signup-gender">
+							<option value="Male">MALE</option>
+							<option value="Female">FEMALE</option>
+						</select><br/><br/>
+					<button>SIGN UP</button>
+				<h1 id="res"></h1>
+				<p>Do You have an Account? <a href="login.html"> Login Now!</a></p>
+				<hr style="width: 50%;">
+				<p>Dising by <b>HASNAIN UL HASAN</b></p>
+			</div>
+		</div>
+	</div></center>
+	<script src="app.js"></script>
+</body>
+
+</html>

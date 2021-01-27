@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("1_xMuIOwjliGUPjkzukeWKfw.jpeg");
+}
+.myprofile{
+    /* text-align: center; */
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    color: white;
+
+}
+.profile{
+    background-color: black;
+    color:  white;
+    /* width: 20%; */
+    /* height: 1000px; */
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 40px;
+}
+
+.center{
+    text-align: center;
+    font-size: 30px;
+}
+.chatapp{
+    border-radius: 7px;
+    padding:0% auto ;
+    margin: 0% auto;
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+.left {
+    left: 30px;
+  }
+  .right {
+    right: 50px;
+    /* background-color: #111; */
+  }
+
+
+.logout{
+    /* display: inline; */
+    float: left;
+    width: 70px;
+    height: 50px;
+    margin-right: 50px;
+    border-radius:10px;
+    border: none;
+    box-shadow: 5px 3px 20px rgb(0, 0, 0);
+    margin: 0% 10%;
+    
+}
+.logout:hover{
+    background-color: black;
+    color: white;
+}
+.upper{
+  position: absolute;
+  z-index: 0;
+}
+
+
+.welcome{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(129, 188, 96);
+    box-shadow: 5px 3px 40px rgb(129, 188, 96);
+    border-radius: 10px;
+}
+.tweet{
+    /* box-shadow: 5px 3px 10px rgb(248, 234, 236); */
+    border-radius: 5em;
+    background-color: black;
+    margin: 10px 0px 10px 0px;
+    
+}
+#text-area{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#usertext-area{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.tweet-text{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-left: 10%;
+    padding-bottom: 12px;
+}
+/* .user-name{
+    font-size: 30px;
+    color:black;
+} */
+.tweet-date{
+    color: white;
+    font-size: 30px;
+    padding-right: 10%;
+}
+.post{
+    width: 50%;
+    height: 40px;
+    border-radius:7em;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+}
+.post:hover{
+    background-color: black;
+    color: white;
+}
+
+input{
+    height: 40px;
+    margin:12px 20px 5px 0px;
+    border-radius:7em;
+    border: none;
+    width: 70%;
+    padding: 25px;
+    background-color:black;
+    color: white;
+    font-size: 25px;
+}
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }

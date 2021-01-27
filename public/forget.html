@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>SignUp Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script
+		type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- Custom Theme files -->
+	<link href="style.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script src="./socket.io.js"></script>
+</head>
+
+<body>
+
+	<center><div class="main-main-main">
+		<h1>FORGET</h1>
+		<div class="main-agileinfo">
+			<div class="agileits-top">
+				<form onsubmit="return forget()">
+					<input id="forget-email" class="text" type="email" placeholder="Email" required=""><br/><br/>
+		
+					<button>GET CODE</button>
+				</form>
+				<h1 id="res"></h1>
+				<p>Do You have an Account? <a href="login.html"> LogIn Now!</a></p>
+				<p>Did You Get a OTP <a href="./forget2.html"> Submit OTP</a></p>
+			</div>
+		</div>
+		
+	</div></center>
+	<script src="app.js"></script>
+</body>
+
+</html>
